@@ -25,6 +25,13 @@ public class VerifyTitle {
 	public void titleVerification() {
 		String expectedTitle = "White Circle Code School";
 		String actualTitle = driver.getTitle();
+		if(expectedTitle.equals(actualTitle)) {
+			System.out.println("Test Case PAssed");
+		}
+		
+		else {
+			System.out.println("Failed");
+		}
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
 	
