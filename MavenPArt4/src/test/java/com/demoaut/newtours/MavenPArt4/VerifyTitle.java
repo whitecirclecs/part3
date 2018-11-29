@@ -32,7 +32,7 @@ public class VerifyTitle {
 		else {
 			System.out.println("Failed");
 		}
-		Assert.assertEquals(actualTitle, expectedTitle);
+		Assert.assertEquals(actualTitle, expectedTitle)
 	}
 	
 	@AfterTest
